@@ -118,7 +118,6 @@ class MainActivity : AppCompatActivity() {
 
         // 缓存策略
         settings.cacheMode = WebSettings.LOAD_DEFAULT
-        settings.setAppCacheEnabled(true)
 
         // 混合内容（允许 HTTPS 页面加载 HTTP 资源）
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
